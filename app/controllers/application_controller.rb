@@ -1,4 +1,9 @@
 #class ApplicationController < ActionController::Base
+
+	def StartSam
+		render html: 'Sentient Sam is here to Please\n\nSentient Same has no knees\n\n'
+	end
+
 class BaseApiController < ApplicationController
 	before_filter :parse_request, :authenticate_user_from_token!
 
