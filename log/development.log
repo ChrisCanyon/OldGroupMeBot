@@ -27,3 +27,10 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 1098ms (Views: 1082.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-03-09 00:49:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html within layouts/application
+  Rendered welcome/index.html within layouts/application (1.3ms)
+Completed 200 OK in 280ms (Views: 264.4ms | ActiveRecord: 0.0ms)
+
+
